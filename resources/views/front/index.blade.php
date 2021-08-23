@@ -72,6 +72,16 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-6">
+						<a href="#">
+							<img src="https://c.tenor.com/E4pTQLd4oWcAAAAd/cje-website.gif" alt="" class="img-fluid rounded" width="100%">
+						</a>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<section id="tech">
