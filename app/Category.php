@@ -6,10 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
 {
-    protected $fillabel = ['name', 'slug'];
+    protected $fillable = ['name', 'slug'];
 
     public function posts()
     {
-        return $this->hashMany(Post::class);
+        return $this->hasMany(Post::class, 'category_id');
     }
 }
